@@ -1,0 +1,17 @@
+package com.nanos.snakeandladder.entity.user;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Address {
+    private String addressLane1;
+    private String addressLane2;
+    private String city;
+    private String state;
+    private String country;
+    private long pinCode;
+}
